@@ -42,3 +42,13 @@ h3 {
     color:white;
     width:80%;
 }
+a {
+
+    font-family: "Work Sans", sans-serif;
+    color:red;
+    padding:1%;
+    background-color: white;
+    margin:0;
+    font-weight: bold;
+    text-decoration: none;
+}
