@@ -1,0 +1,343 @@
+.gradient {
+
+        background: linear-gradient(to bottom, #9DC08B, #EDF1D6); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+}
+
+.navcontainer {
+
+    background-color:#40513B;
+    width: 100%;
+    z-index:1;
+}
+.navcontainer ul {
+    display: flex;  
+    justify-content: space-around;
+    list-style: none;
+    padding: 1%;
+    margin: 0;
+    flex-flow:wrap;
+}
+
+.navcontainer ul li a {
+
+    color:white;
+    font-family: "Work Sans", sans-serif;
+    transition-duration: 0.25s;
+}
+.navcontainer ul li a:hover {
+
+    font-weight: bold;
+    transition-duration: 0.25s;
+}
+.titulo {
+    font-family:"Playwrite GB S", "cursive";
+    justify-content: center;
+    text-align: center;
+    background-color: #609966;
+    padding:1%;
+    display: flex;
+    max-width: 100%;
+}
+.info {
+
+    width: auto;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    flex-flow:wrap;
+}
+#que-es {
+
+    border-radius: 15px;
+    max-width: 70%;
+    height: auto;
+    background-color: rgb(206, 223, 201);
+    text-align: center;
+    box-shadow: 9px 9px rgb(54, 76, 54);
+    font-family: "Work Sans", sans-serif;
+    padding: 1%;
+    flex-direction: column;
+}
+#que-es h2 {
+
+    font-family: "Days One", sans-serif;
+    font-weight: lighter;      
+}
+#que-es img {
+
+    border-radius: 15px;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+a {
+
+    text-decoration: none;
+}
+
+h2 {
+
+    font-family: "Days One", sans-serif;
+    font-weight: lighter;   
+    text-align: center;
+    margin:0;
+    padding:2%;
+}
+.consequencia1 {
+    background-image: url(tormenta.webp);
+}
+.consequencia2 {
+    background-image: url(sequia.jpg);
+}
+.consequencia3 {
+    background-image: url(mar.jpg);
+}
+.consequencia4 {
+    background-image: url(extincion.jpg);
+}
+.consequencia5 {
+    background-image: url(escasez.jpeg);
+}
+.consequencia6 {
+    background-image: url(enfermetats.webp);
+}
+.consequencies-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:wrap;
+}
+.consequencies-box > div {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 50px;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;/*
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+    position: relative;
+    padding: 1%;
+    margin: 1%;
+    transition: height 0.5s ease-in-out;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode:overlay;
+}
+.text h3 {
+
+    font-family: "Days One", sans-serif;
+    text-align: center;
+    color:white;
+}
+.consequencies-box .text p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size:smaller;
+    background-color: bisque;
+    border-radius:10px;
+    text-align: center;
+    box-shadow: 6px 6px #9DC08B;
+    padding:5px;
+}
+.consequencies-box > div {
+
+    transition: height 0.5s ease-in-out; 
+}
+.consequencies-box > div:hover {
+
+    height:150px;
+    transition: height 0.5s ease-in-out; 
+    background-color: rgba(0,0,0,0.2);
+}
+.consequencies-box > div .text p {
+    opacity:0;
+    transition: opacity 0.5s ease-in-out; 
+}
+.consequencies-box > div:hover .text p {
+    opacity: 1;
+}
+.activitat1 {
+    background-image: url(desforestacion.jpg);
+    background-position: center;
+}
+.activitat2 {
+    background-image: url(usdelsol.jpg);
+    background-position: center;
+}
+.activitat3 {
+    background-image: url(energia.jpg);
+    background-position: center;
+}
+.activitat4 {
+    background-image: url(transporte.jpg);
+    background-position: center;
+}
+.activitat5 {
+    background-image: url(recursos.jpg);
+    background-position: center;
+}
+.activitat6 {
+    background-image: url(industria.jpg);
+    background-position:center;
+}
+.activitat7 {
+    background-image: url(residus.jpg);
+    background-position: center;
+}
+.activitat8 {
+    background-image: url(quimicos.jpg);
+    background-position: center;   
+}
+.activitats-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.activitats-box > div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 60px;
+    width: 30%;
+    border-radius:10px;
+    position: relative;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.activitats-box > div:hover {
+
+    background-color: rgba(0,0,0,0.2);
+    transition-duration:0.5s;
+}
+.reduir-1 {
+    background-image: url(hogar.webp);
+    background-position: center;
+}
+.reduir-2 {
+    background-image: url(transporte-sostenible.jpg);
+    background-position: center;
+}
+.reduir-3 {
+    background-image: url(alimentacion.jpg);
+    background-position: center;
+}
+.reduir-box {
+
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height:500px;
+    display: flex;
+}
+.reduir-box > div{
+
+    cursor: pointer;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 0;
+    flex-grow:1;
+    object-fit: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-duration:0.5s;
+    justify-content: center;
+    display: flex;
+}
+.reduir-box > div:hover {
+
+    background-color: rgba(0,0,0,0.2);
+    width: 30%;
+    transition-duration:0.5s;
+}
+.reduir-box .text p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size:smaller;
+    background-color: bisque;
+    border-radius:10px;
+    text-align: center;
+    box-shadow: 6px 6px #9DC08B;
+    padding:5px;
+}
+.reduir-box h2 {
+
+    font-size:14px;
+    font-family: "Work Sans", sans-serif;
+    font-weight:300;
+    color:white;
+}
+.reduir-box li {
+
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    font-size:0;
+    list-style: none;
+    transition:ease 0.5s;
+    margin: 0 auto;
+}
+.reduir-box > div:hover li{
+
+    border-radius: 15px;
+    max-width: 70%;
+    height: auto;
+    background-color: rgb(206, 223, 201);
+    text-align: center;
+    box-shadow: 9px 9px rgb(54, 76, 54);
+    font-family: "Work Sans", sans-serif;
+    padding: 1%;
+    flex-direction: column;
+    font-size:16px;
+    transition:ease 0.5s;
+}
+@media (max-width: 480px) {
+
+    ul {
+
+        font-size:0.9rem;
+        padding:0.5%;
+        text-align:center
+    }
+    .titulo {
+
+        font-size: 1rem;
+    }
+    #que-es {
+
+        height:100%;
+        padding:4%;
+    }
+    .consequencies-box > div{
+
+        height:35px;
+    }
+    .consequencies-box {
+
+        height:150px;
+    }   
+    .reduir-box > div {
+        width: 100%; /* Ocupan una columna en pantallas pequeñas */
+    }
+}
+@media (max-width: 768px) {
+    .reduir-box > div {
+        width: 50%; /* Ocupan dos columnas en pantallas medianas */
+    }
+}
+
+

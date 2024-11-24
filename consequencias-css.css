@@ -1,0 +1,40 @@
+.reduir-1 {
+    background-image: url(hogar.webp);
+    background-position: center;
+}
+.reduir-2 {
+    background-image: url(transporte-sostenible.jpg);
+    background-position: center;
+}
+.reduir-3 {
+    background-image: url(alimentacion.jpg);
+    background-position: center;
+}
+.reduir-box {
+
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height:600px;
+    display: flex;
+}
+.reduir-box > div{
+
+    cursor: pointer;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 0;
+    flex-grow:1;
+    object-fit: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-duration:0.5s;
+}
+.reduir-box > div:hover {
+
+    background-color: rgba(0,0,0,0.2);
+    width: 30%;
+    transition-duration:0.5s;
+}

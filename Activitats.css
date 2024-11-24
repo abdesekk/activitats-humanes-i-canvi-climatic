@@ -1,0 +1,44 @@
+html {
+
+    display:flex;
+    height:fit-content;
+}
+h3 {
+
+    font-family: "Days One", sans-serif;
+    margin:0;
+    font-size:150%;
+}
+.titulo {
+
+    width: 100%;
+    margin:0;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.background {
+
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;    
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column;     
+}
+.texto {
+
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.texto p {
+
+    font-family: "Work Sans", sans-serif;
+    color:white;
+    width:80%;
+}
